@@ -9,6 +9,13 @@ This repository includes
 - Support Vector Machine(SVM) method using a Gaussian kernel to separate the graphene flakes.
 - A comaprison among BT-Net, SVM methods and image processing methods.
 
+
+## Dataset 
+The dataset is provided by the Nanoelectronics lab at National Cheng Kung University.
+
+
+[COCO dataset]() 
+
 ## Labeling 
 The labeling software is [Labelbox](https://labelbox.com). 
 
