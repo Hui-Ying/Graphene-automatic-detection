@@ -11,6 +11,7 @@ This repository includes
 
 ## Labeling 
 The labeling software is [Labelbox](https://labelbox.com). 
+[Details]()
 
 ## UNet Architecture
 - The architecture is as follows. [cite]
