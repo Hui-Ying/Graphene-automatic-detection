@@ -9,6 +9,8 @@ This repository includes
 - Support Vector Machine(SVM) method using a Gaussian kernel to separate the graphene flakes.
 - A comaprison among BT-Net, SVM methods and image processing methods.
 
+## Labeling 
+The labeling software is [Labelbox](https://labelbox.com). 
 
 ## UNet Architecture
 - The architecture is as follows. [cite]
@@ -20,7 +22,9 @@ The purpose of the BT-Net is to define the red, blue and green upper thresholds 
 
 
 ## Support Vector Machine Method
-Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented using a Gaussian kernel.  
+Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented using a Gaussian kernel.
+
+- 
 - 
 
 
