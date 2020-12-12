@@ -11,14 +11,12 @@ This repository includes
 
 
 ## Dataset 
-The dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
+The original dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
 
-
-[COCO dataset]() 
 
 ## Labeling 
 The labeling software is [Labelbox](https://labelbox.com). 
-
+A generated json file from Labelbox will then converted into [COCO dataset]() for use.
 
 [Details]()
 
