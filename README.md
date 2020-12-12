@@ -23,7 +23,11 @@ A generated json file from Labelbox will then converted into [COCO dataset]() fo
 [Details]()
 
 ## UNet Architecture
+Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the UNet youtube tutorial!
+
 - The architecture is as follows. [cite]
+
+
 ## Bi-Threshold-Net architecture(BT-Net)
 The purpose of the BT-Net is to define the red, blue and green upper thresholds and the lower thresholds of the pixel intensity for both singer layer and bilayer graphene flakes. A self-designed loss function is defined to improve the result of the training model. 
 
