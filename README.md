@@ -11,7 +11,7 @@ This repository includes
 
 
 ## Dataset 
-The dataset is provided by the Nanoelectronics lab at National Cheng Kung University.
+The dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
 
 
 [COCO dataset]() 
@@ -42,7 +42,7 @@ Once the background and the graphene flakes were separated using the U-Net archi
 
 - Otsu's method.
 - Watershed method.
-- canny edge
+- canny edge filter
 
 ## Result Comparison and Discussion
 
