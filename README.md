@@ -15,7 +15,7 @@ The original dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.
 
 
 ## Labeling 
-The labeling software is [Labelbox](https://labelbox.com). 
+The labeling software used for this project is [Labelbox](https://labelbox.com). 
 
 
 A generated json file from Labelbox will then converted into [COCO dataset]() for use.
@@ -29,7 +29,8 @@ Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube t
 
 
 ## Bi-Threshold-Net architecture(BT-Net)
-The purpose of the BT-Net is to define the red, blue and green upper thresholds and the lower thresholds of the pixel intensity for both singer layer and bilayer graphene flakes. A self-designed loss function is defined to improve the result of the training model. 
+The purpose of the BT-Net is to define the red, blue and green upper thresholds and the lower thresholds of the pixel intensity for both single layer and bilayer graphene flakes. Once the upper and lower thresholds for different layers of graphene are found, a color segmentation method was applied to separate the graphene flakes.  
+A modified loss function is defined to improve the result of the training model. 
 
 - The definition of the loss funciton is as follows. 
 - The architecture is as follows.[cite]
