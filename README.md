@@ -37,6 +37,7 @@ The purpose of the BT-Net is to define the red, blue and green upper thresholds 
 
 The BT-Net structure is shown below.
 ![](/images/BTNet.png)
+<img src="/images/BTNet.png" width="324" height="324">
 A modified loss function is defined to improve the result of the training model. 
 
 - The definition of the loss funciton is as follows. 
