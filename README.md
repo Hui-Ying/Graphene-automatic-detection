@@ -55,5 +55,5 @@ SVM is a supervised learning model used for regression and classification analys
 
 ## References
 # References
-[[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine) 
-[[2]scikit learn page of support vector machine](https://scikit-learn.org/stable/modules/svm.html) 
+[[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)   
+[[2]Scikit learn page of support vector machine](https://scikit-learn.org/stable/modules/svm.html) 
