@@ -23,7 +23,7 @@ A generated json file from Labelbox will then converted into [COCO dataset]() fo
 [Details]()
 
 ## UNet Architecture
-Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!  
+- Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!  
 In this project, UNet architecture was implemented to segment the background and the graphene flakes.  
 - The architecture is as follows. [cite]  
 - Images to demonstrate.
