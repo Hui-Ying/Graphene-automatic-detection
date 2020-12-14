@@ -11,21 +11,22 @@ This repository includes
 
 
 ## Dataset 
+The graphene dataset was prepared with a mechanical exfoliation method on several SiO2 substrates. The images were taken using an optical microscope with x20, x50 and x100. 
 The original dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
 
 
 ## Labeling 
-The labeling software used for this project is [Labelbox](https://labelbox.com). 
-
+The labeling software used for this project is [Labelbox](https://labelbox.com).   
 
 A generated json file from Labelbox will then converted into [COCO dataset]() for use.
 
 [Details]()
 
 ## UNet Architecture
-Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!
-
-- The architecture is as follows. [cite]
+Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!  
+In this project, UNet architecture was implemented to segment the background and the graphene flakes.  
+- The architecture is as follows. [cite]  
+- Images to demonstrate.
 
 
 ## Bi-Threshold-Net architecture(BT-Net)
