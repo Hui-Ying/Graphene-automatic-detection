@@ -4,8 +4,8 @@ The purpose of this project is to automatically identify and separate the layers
 
 
 This repository includes
-- U-Net architecture implemented as the first step to segment the background and the graphene flakes.
-- BT–Net architecture to find the thresholds of the pixel values of single and bilayer graphene flakes.
+- Implemented an U-Net architecture as the first step to segment the background and the graphene flakes.
+- Implemented a BT–Net architecture to find the thresholds of the pixel values of single and bilayer graphene flakes.
 - Support Vector Machine(SVM) method using a Gaussian kernel to separate the graphene flakes.
 - A comaprison among BT-Net, SVM methods and image processing methods.
 
@@ -23,7 +23,7 @@ A generated json file from Labelbox will then converted into [COCO dataset]() fo
 [Details]()
 
 ## UNet Architecture
-In this project, UNet architecture was implemented to segment the background and the graphene flakes.   
+In this project, an UNet architecture was implemented to segment the background and the graphene flakes.   
 - Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!   
 - The architecture is as follows. [cite]  
 - Images to demonstrate.
