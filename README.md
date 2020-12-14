@@ -36,8 +36,8 @@ A modified loss function is defined to improve the result of the training model.
 - The architecture is as follows.[cite]
 
 
-## Support Vector Machine Method
-Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented using a Gaussian kernel.
+## Support Vector Machine(SVM) Method
+SVM is a supervised learning model used for regression and classification analysis. Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented using a Gaussian kernel, a polynomial kernel and a linear kernel to demonstrate the differences. Kernel function was picked to  suit the problem. 
 
 - 
 - 
@@ -45,10 +45,12 @@ Once the background and the graphene flakes were separated using the U-Net archi
 
 ## Image Processing Methods
 
-- Otsu's method.
+- Otsu's method.  
+
 - Watershed method.
 - canny edge filter
 
 ## Result Comparison and Discussion
 
 
+## References
