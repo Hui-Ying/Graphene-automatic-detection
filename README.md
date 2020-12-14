@@ -1,7 +1,7 @@
 # Graphene-automatic-detection
 
 The purpose of this project is to automatically identify and separate the layers of graphene flakes from the optical microscopic images. 
-![](/images/graphene_process.png)
+
 
 This repository includes
 - Implemented an U-Net architecture as the first step to segment the background and the graphene flakes.
@@ -31,6 +31,7 @@ In this project, an UNet architecture was implemented to segment the background 
 
 ## Bi-Threshold-Net architecture(BT-Net)
 The purpose of the BT-Net is to define the red, blue and green upper thresholds and the lower thresholds of the pixel intensity for both single layer and bilayer graphene flakes. Once the upper and lower thresholds for different layers of graphene are found, a color segmentation method was applied to separate the graphene flakes.  
+![](/images/graphene_process.png)
 A modified loss function is defined to improve the result of the training model. 
 
 - The definition of the loss funciton is as follows. 
