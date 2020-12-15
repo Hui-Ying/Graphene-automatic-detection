@@ -60,7 +60,7 @@ SVM is a supervised learning model used for regression and classification analys
 - canny edge filter
 
 ## Result Comparison and Discussion
-- SVM results  
+- SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600">
 
 ## References
