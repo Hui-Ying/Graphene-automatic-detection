@@ -60,7 +60,8 @@ SVM is a supervised learning model used for regression and classification analys
 - canny edge filter
 
 ## Result Comparison and Discussion
-
+- SVM results  
+<img src="/images/SVM.png" width="400" height="800">
 
 ## References
 [[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)   
