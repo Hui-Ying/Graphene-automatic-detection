@@ -36,7 +36,7 @@ The purpose of the BT-Net is to define the red, blue and green upper thresholds 
 ![](/images/graphene_process.png)
 
 The BT-Net structure is shown below.
-<img src="/images/BTNet.png" width="400" height="400">
+<img src="/images/BTNet.png" width="600" height="600">
 
 
 A modified loss function is defined to improve the result of the training model. 
