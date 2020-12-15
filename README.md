@@ -36,7 +36,7 @@ The purpose of the BT-Net is to define the red, blue and green upper thresholds 
 ![](/images/graphene_process.png)
 
 The BT-Net structure is shown below.
-<img src="/images/BTNet.png" width="600" height="600">
+<img src="/images/BTNet.png" width="800" height="400">
 
 
 A modified loss function is defined to improve the result of the training model. 
@@ -61,7 +61,7 @@ SVM is a supervised learning model used for regression and classification analys
 
 ## Result Comparison and Discussion
 - SVM results  
-<img src="/images/SVM.png" width="400" height="400">
+<img src="/images/SVM.png" width="600" height="600">
 
 ## References
 [[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)   
