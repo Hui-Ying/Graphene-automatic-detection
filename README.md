@@ -60,6 +60,13 @@ SVM is a supervised learning model used for regression and classification analys
 - canny edge filter
 
 ## Result Comparison and Discussion
+Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.  
+| Method       | monolayer DR(%) | monolayer FR(%) | bilayer DR(%) | bilayer FR(%) |
+| :---         |     :---:       |          ---:   |          ---: |          ---: |
+| SVM          | 67              | 0.26            |85             |0.35           |
+| BT-Net       |                 |                 |               |               |
+
+
 - SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600">
 
