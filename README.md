@@ -70,8 +70,12 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 | canny edge      |                 |                 |               |               |
   
   
-- SVM results(GT: ground truth; G: green; R: red)  
+- Demonstration of SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600">
+
+- Demonstration of BT-Net results
+
+- Demonstration of Otsu' result
 
 ## References
 [[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)   
