@@ -12,7 +12,7 @@ This repository includes
 
 ## Dataset 
 The graphene dataset was prepared with a mechanical exfoliation method on several SiO2 substrates. The images were taken using an optical microscope with x20, x50 and x100. 
-The original dataset is provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
+The original dataset was provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
 
 
 ## Labeling 
