@@ -74,7 +74,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 <img src="/images/SVM.png" width="600" height="600"><br />  
 
 
-- (a) and (b)The result using BT–Net compared to Otsu method for bilayer graphene.(c)  and  (d)The result using BT–Net compared to Otsu's method for monolayer graphene.
+- (a) and (b)The result using BT–Net compared to Otsu's method for bilayer graphene.(c)  and  (d)The result using BT–Net compared to Otsu's method for monolayer graphene.
 
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
