@@ -64,7 +64,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 | Method       | monolayer DR(%) | monolayer FR(%) | bilayer DR(%) | bilayer FR(%) |
 | :---         |      ---:       |          ---:   |          ---: |          ---: |
 | SVM          | 67              | 0.26            |85             |0.35           |
-| BT-Net       |                 |                 |               |               |
+| BT-Net       | 81.06                |     2.85            |90.06               | 2.89              |
 | Otsu's method|                 |                 |               |               |
 | Watershed method|                 |                 |               |               |
 | canny edge      |                 |                 |               |               |
