@@ -71,7 +71,11 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
   
   
 - Demonstration of SVM results(GT: ground truth; G: green; R: red)  
-<img src="/images/SVM.png" width="600" height="600">
+<img src="/images/SVM.png" width="600" height="600">  
+
+
+(a) and (b)The result using BT –Net compared to Otsu method forbilayer  graphene.(c)  and  (d)The  result  using  BT  –Net  compared  to  Otsumethod for monolayer graphene.
+
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 
