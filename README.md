@@ -65,7 +65,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 | :---         |      ---:       |          ---:   |          ---: |          ---: |
 | SVM          | 67              | 0.26            |85             |0.35           |
 | BT-Net       | 81.06                |     2.85            |90.06               | 2.89              |
-| Otsu's method|                 |                 |               |               |
+| Otsu's method|  65.42               |      1.91           |     57.57          |   2.77            |
 | Watershed method|                 |                 |               |               |
 | canny edge      |                 |                 |               |               |
   
