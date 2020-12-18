@@ -72,7 +72,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
   
 - Demonstration of SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600">
-<img src="/images/otsuRGBNN_compare.png" width="600" height="600">
+<img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 
 - Demonstration of BT-Net results
