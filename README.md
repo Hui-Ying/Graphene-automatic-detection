@@ -84,5 +84,15 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 - Demonstration of Otsu' result
 
 ## References
-[[1]Wikipedia page of support vector machine](https://en.wikipedia.org/wiki/Support_vector_machine)   
-[[2]Scikit learn page of support vector machine](https://scikit-learn.org/stable/modules/svm.html) 
+[1] K. S. Novoselov, A. Mishchenko, A. Carvalho, and A. H. C. Neto, “2d materials and van der waals heterostructures,” Science, vol. 353, no. 6298, p. aac9439, 2016.
+[2] M. C. Lemme, T. J. Echtermeyer, M. Baus, and H. Kurz, “A graphene field-effect device,” IEEE Electron Device Letters, vol. 28, pp. 282–284, 2007.
+[3] F. Xia, T. Mueller, Y. ming Lin, A. Valdes-Garcia, and P. Avouris, “A graphene field-effect device,” Nature Nanotechnology, vol. 4, pp. 839– 843, 2009.
+[4] S. Masubuchi and T. Machida, “Classifying optical microscope images of exfoliated graphene flakes by data-driven machine learning,” npj 2D Materials and Applications, vol. 3, no. 1, pp. 1–7, 2019.
+[5] S. Masubuchi, E. Watanabe, Y. Seo, S. Okazaki, T. Sasagawa, K. Watan- abe, T. Taniguchi, and T. Machida, “Deep-learning-based image seg- mentation integrated with optical microscopy for automatically search- ing for two-dimensional materials,” npj 2D Materials and Applications, vol. 4, no. 1, pp. 1–9, 2020.
+[6] Y. Saito, K. Shin, K. Terayama, S. Desai, M. Onga, Y. Nakagawa, Y. M. Itahashi, Y. Iwasa, M. Yamada, and K. Tsuda, “Deep-learning- based quality filtering of mechanically exfoliated 2d crystals,” npj Computational Materials, vol. 5, no. 1, pp. 1–6, 2019.
+[7] K. S. Novoselov, A. K. Geim, S. V. Morozov, D. Jiang, Y. Zhang, S. V. Dubonos, I. V. Grigorieva, and A. A. Firsov, “Electric field effect in atomically thin carbon films,” Science, vol. 306, no. 5696, pp. 666–669, 2004.
+[8] Y. Huang, E. Sutter, N. N. Shi, T. Y. Jiabao Zheng, D. Englund, H.- J. Gao, and P. Sutter, “Reliable exfoliation of large-area high-quality flakes of graphene and other two-dimensional materials,” ACS Nano, vol. 9, no. 11, pp. 10612–10620, 2015.
+[9] O. Ronneberger, P.Fischer, and T. Brox, “U-net: Convolutional networks for biomedical image segmentation,” vol. 9351, pp. 234–241, 2015.
+[10] N. Otsu, “A threshold selection method from gray-level histograms,” IEEE Transactions on Systems, Man, and Cybernetics, vol. 9, pp. 62– 66, 1979.
+[11] J. Zhang and J. Hu, “Image segmentation based on 2d otsu method with histogram analysis,” International Conference on Computer Science and Software Engineering.
+[12] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” In ICLR.
