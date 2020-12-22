@@ -73,15 +73,12 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 - Demonstration of SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600"><br />  
 
-- Demonstration of BT-Net results  
+- Demonstration the results of BT-Net compared to Otsu's method
 - (a) and (b)The result using BT–Net compared to Otsu's method for bilayer graphene.(c)  and  (d)The result using BT–Net compared to Otsu's method for monolayer graphene.
 
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 
-
-
-- Demonstration of Otsu' result
 
 ## References
 [1] K. S. Novoselov, A. Mishchenko, A. Carvalho, and A. H. C. Neto, “2d materials and van der waals heterostructures,” Science, vol. 353, no. 6298, p. aac9439, 2016.  
