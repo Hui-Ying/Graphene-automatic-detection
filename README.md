@@ -23,7 +23,7 @@ A generated json file from Labelbox will then converted into a [COCO dataset](ht
 [Details]()
 
 
-## Image Preprocessing methods
+## Image Preprocessing method
 Applied image preprocessing to increase the object detection rate under different lighting conditions
 
 
