@@ -22,6 +22,11 @@ A generated json file from Labelbox will then converted into a [COCO dataset](ht
 
 [Details]()
 
+
+## Image Preprocessing methods
+Applied image preprocessing to increase the object detection rate under different lighting conditions
+
+
 ## UNet Architecture
 In this project, an UNet architecture was implemented to segment the background and the graphene flakes.   
 - Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!   
@@ -66,9 +71,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 | SVM          | 67              | 0.26            |85             |0.35           |
 | BT-Net       | 81.06                |     2.85            |90.06               | 2.89              |
 | Otsu's method|  65.42               |      1.91           |     57.57          |   2.77            |
-| Watershed method|                 |                 |               |               |
-| canny edge      |                 |                 |               |               |
-  
+
   
 - Demonstration of SVM results(GT: ground truth; G: green; R: red)  
 <img src="/images/SVM.png" width="600" height="600"><br />  
