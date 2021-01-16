@@ -11,7 +11,7 @@ This repository includes
 
 
 ## Dataset 
-The graphene dataset was prepared with a mechanical exfoliation method on several SiO2 substrates. The images were taken using an optical microscope with x20, x50 and x100.   
+The graphene image dataset was prepared with a mechanical exfoliation method on several SiO2 substrates. All the images were taken using an optical microscope with x20, x50 and x100.   
 The original dataset was provided by [Nanoelectronics lab](http://nano.phys.ncku.edu.tw) at National Cheng Kung University.
 
 
@@ -20,11 +20,11 @@ The labeling software used for this project is [Labelbox](https://labelbox.com).
 
 A generated json file from Labelbox will then converted into a [COCO dataset](https://cocodataset.org/#home) for use.
 
-[Details]()
+[Labeling Tutorial]()
 
 
 ## Image Preprocessing method
-Applied image preprocessing to increase the object detection rate under different lighting conditions
+Applied image preprocessing to increase the object detection rate under different lighting and contrast conditions. With the preprocessing methods, the object detection can be performed more accurately under different conditions, such as images taken by different cameras.  
 
 
 ## UNet Architecture
