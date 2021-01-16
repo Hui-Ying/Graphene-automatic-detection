@@ -27,7 +27,7 @@ A generated json file from Labelbox will then converted into a [COCO dataset](ht
 Applied image preprocessing to increase the object detection rate under different lighting and contrast conditions. With the preprocessing method, the object detection can be performed more accurately under different conditions, such as images taken by different cameras.  
 
 
-<img src="/images/preprocess.png" width="1200" height="300">
+<img src="/images/preprocess.png" width="900" height="200">
 
 ## UNet Architecture
 In this project, an UNet architecture was implemented to segment the background and the graphene flakes.   
