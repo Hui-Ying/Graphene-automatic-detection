@@ -24,7 +24,7 @@ A generated json file from Labelbox will then converted into a [COCO dataset](ht
 
 
 ## Image Preprocessing method
-Applied image preprocessing to increase the object detection rate under different lighting and contrast conditions. With the preprocessing methods, the object detection can be performed more accurately under different conditions, such as images taken by different cameras.  
+Applied image preprocessing to increase the object detection rate under different lighting and contrast conditions. With the preprocessing method, the object detection can be performed more accurately under different conditions, such as images taken by different cameras.  
 
 
 ## UNet Architecture
