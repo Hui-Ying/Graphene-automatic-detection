@@ -78,8 +78,10 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 ## Test the robustness of the model
-
-
+ 
+<img src="/images/test1.png" width="600" height="600"><br /> 
+<img src="/images/test2.png" width="600" height="600"><br /> 
+<img src="/images/Detection_rate.png" width="600" height="600"><br /> 
 
 ## References
 [1] K. S. Novoselov, A. Mishchenko, A. Carvalho, and A. H. C. Neto, “2d materials and van der waals heterostructures,” Science, vol. 353, no. 6298, p. aac9439, 2016.  
