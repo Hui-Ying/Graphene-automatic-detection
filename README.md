@@ -78,7 +78,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 ## Test the robustness of the model
-Graphene images can be captured using different kind of camera might cause color shift can hence resulting in model predicting the graphene flakes incorrectly. In order to make sure graphene flakes captured with different camera can be detected, we applied image preprocessing to resolve this issue.    
+Graphene images can be captured using different kind of camera which might cause color shift and results in incorrect detection of the graphene. And thus, in order to make sure that the graphene flakes captured with different camera can be detected correctly, image preprocessing was applied to resolve this issue. We shifted the color channel intentionally and applied the image preprocessing  on those images. The following plot shows the relationship between the detection rate and the number of the shifted pixel values.
 Raw image is the original image. True mask is the ground truth image.   
 <img src="/images/raw.png" width="350" height="200"><br />    
 
