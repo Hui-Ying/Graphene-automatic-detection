@@ -48,23 +48,17 @@ The BT-Net structure is shown below.
 
 A modified loss function is defined to improve the result of the training model. 
 
-- The definition of the loss funciton is as follows. 
 
 
 
 ## Support Vector Machine(SVM) Method
 SVM is a supervised learning model used for regression and classification analysis. Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented. Here the SVM algorithm was implemented with different kernels including Gaussian kernel, polynomial kernel and linear kernel to demonstrate the differences. Kernel function was picked to suit the problem. 
 
-- 
-- 
+
 
 
 ## Image Processing Methods
 
-- Otsu's method.  
-
-- Watershed method.
-- canny edge filter
 
 ## Result Comparison and Discussion
 Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.  
@@ -82,6 +76,8 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 (a) and (b)The result using BT–Net compared to Otsu's method for bilayer graphene.(c)  and  (d)The result using BT–Net compared to Otsu's method for monolayer graphene.
 
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
+
+## Test the robustness of the model
 
 
 
