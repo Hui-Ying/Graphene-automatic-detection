@@ -78,9 +78,9 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 ## Test the robustness of the model
- 
-<img src="/images/test1.png" width="680" height="520"><br />  
-<img src="/images/test2.png" width="650" height="450"><br /> 
+<img src="/images/raw.png" width="300" height="100"><br />  
+<img src="/images/test_1.png" width="600" height="400"><br />  
+<img src="/images/test_2.png" width="600" height="400"><br /> 
 <img src="/images/Detection_rate.png" width="550" height="400"><br /> 
 
 ## References
