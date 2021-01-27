@@ -78,13 +78,15 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 <img src="/images/otsuRGBNN_compare.png" width="600" height="700">
 
 ## Test the robustness of the model
-Graphene images can be captured using different kind of camera might cause color shift can hence resulting in model predicting the graphene flakes incorrectly. In order to make sure graphene flakes captured with different camera can be detected, we applied image preprocessing to resolve this issue. 
-Raw image is the original image. True mask is the ground truth image. 
-<img src="/images/raw.png" width="350" height="200"><br />  
-Modified images are the images after shifting the pixel values(ranges from 30, 25,...-25,-30). Preprocessed the modified images are the images applied with data preprocessing.
-<img src="/images/test_1.png" width="650" height="400"><br />  
-<img src="/images/test_2.png" width="650" height="400"><br /> 
-<img src="/images/Detection_rate.png" width="550" height="400"><br /> 
+Graphene images can be captured using different kind of camera might cause color shift can hence resulting in model predicting the graphene flakes incorrectly. In order to make sure graphene flakes captured with different camera can be detected, we applied image preprocessing to resolve this issue.    
+Raw image is the original image. True mask is the ground truth image.   
+<img src="/images/raw.png" width="350" height="200"><br />    
+
+Modified images are the images after shifting the pixel values(ranges from 30, 25,...-25,-30). Preprocessed the modified images are the images applied with data preprocessing.  
+
+<img src="/images/test_1.png" width="650" height="400"><br />    
+<img src="/images/test_2.png" width="650" height="400"><br />   
+<img src="/images/Detection_rate.png" width="550" height="400"><br />   
 
 ## References
 [1] K. S. Novoselov, A. Mishchenko, A. Carvalho, and A. H. C. Neto, “2d materials and van der waals heterostructures,” Science, vol. 353, no. 6298, p. aac9439, 2016.  
