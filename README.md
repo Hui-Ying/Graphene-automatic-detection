@@ -79,8 +79,7 @@ Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.
 
 ## Test the robustness of the model
  
-<img src="/images/test1.png" width="650" height="500"><br /> 
-<img src="/images/test2.png" width="650" height="450"><br /> 
+<img src="/images/test1.png" width="650" height="500"><br />  <img src="/images/test2.png" width="650" height="450"><br /> 
 <img src="/images/Detection_rate.png" width="500" height="400"><br /> 
 
 ## References
