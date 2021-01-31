@@ -101,3 +101,11 @@ Modified images are the images after shifting the pixel values(ranges from 30, 2
 [10] N. Otsu, “A threshold selection method from gray-level histograms,” IEEE Transactions on Systems, Man, and Cybernetics, vol. 9, pp. 62– 66, 1979.  
 [11] J. Zhang and J. Hu, “Image segmentation based on 2d otsu method with histogram analysis,” International Conference on Computer Science and Software Engineering.  
 [12] K. Simonyan and A. Zisserman, “Very deep convolutional networks for large-scale image recognition,” In ICLR.  
+[13]Y. Cao, V. Fatemi1, S. Fang, K. Watanabe, T. Taniguchi, E. Kaxiras, and P. Jarillo-Herrero1, “Unconventional superconductivity in magic-angle graphene superlattices,” vol. 556, pp. 43–50, 2018.
+[14] J. G. G. S. Ramos, T. C. Vasconcelos, and A. L. R. Barbosa, “Spin-to- charge conversion in 2d electron gas and single-layer graphene devices,” vol. 123, 2018.
+[15] F. Bovolon, L. Bruzzone, and L. Carlin, “A novel technique for subpixel image classification based on support vector machine,” IEEE TRANSACTIONS ON IMAGE PROCESSING, vol. 19, pp. 2983–2999, 2010.
+[16] K. Sakthivel, R. Nallusamy, and C. Kavitha, “Color image segmentation using svm pixel classification image,” IEEE TRANSACTIONS ON IMAGE PROCESSING, vol. 8, pp. 1924–1930, 2014.
+[17] X.-Y. Wang, T. Wang, and J. Bu, “Color image segmentation using pixel wise support vector machine classification,” Pattern Recognition, vol. 44, pp. 777–787, 2011.
+[18] O. Chapelle, P. Haffner, and V. N. Vapnik, “Support vector machines for histogram-based image classification,” IEEE TRANSACTIONS ON NEURAL NETWORKS, vol. 10, pp. 1055–1064, 1999.
+[19] T. M. Cover, “Geometrical and statistical properties of systems of linear inequalities with application in pattern recognition,” vol. 14, pp. 326– 334, 1965.
+[20] N. Cristianini and J. Shawe-Tayloi, “An introduction to support vector machines,” 2000.
