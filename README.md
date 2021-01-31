@@ -38,10 +38,6 @@ In this project, an UNet architecture was implemented to segment the background 
 
 
 
-The BT-Net structure is shown below.
-<img src="/images/BTNet.png" width="800" height="400">
-
-
 A modified loss function is defined to improve the result of the training model. 
 
 
@@ -49,11 +45,6 @@ A modified loss function is defined to improve the result of the training model.
 
 ## Support Vector Machine(SVM) Method
 SVM is a supervised learning model used for regression and classification analysis. Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented. Here the SVM algorithm was implemented with different kernels including Gaussian kernel, polynomial kernel and linear kernel to demonstrate the differences. Kernel function was picked to suit the problem. 
-
-
-
-
-## Image Processing Methods
 
 
 ## Result Comparison and Discussion
@@ -80,8 +71,8 @@ Raw image is the original image. True mask is the ground truth image.
 
 Modified images are the images after shifting the pixel values(ranges from 30, 25,...-25,-30). Preprocessed the modified images are the images applied with data preprocessing.  
 
-<img src="/images/test_1.png" width="650" height="400"><br />    
-<img src="/images/test_2.png" width="650" height="400"><br />   
+<img src="/images/shift_plus.png" width="650" height="400"><br />    
+<img src="/images/shift_minus.png" width="650" height="400"><br />   
 <img src="/images/Detection_rate.png" width="550" height="400"><br />   
 
 ## References
