@@ -1,13 +1,11 @@
 # Graphene-automatic-detection
 
-The purpose of this project is to automatically identify and separate the layers of graphene flakes from the optical microscopic images. 
+This work investigates the important problem of autonomous graphene detection in microscopic substrate images. We study the application of hybrid deep learning(DL)/machine learning(ML) techniques to segment the monolayer and bilayer graphene. We implement a modified U-Net model to segment the graphene flakes from the background. By using the segmentation results from the U-Net model, we implement a support vector machine (SVM) to separate the monolayer and bilayer graphene flakes. There are two features including the graphene and the background pixel values from microscopic images as the inputs for the SVM model. We achieve detection rates of 87.09\% and 90.41\% for monolayer and bilayer graphene. 
 
 
 This repository includes
-- Implemented an U-Net architecture as the first step to segment the background and the graphene flakes.
-- Implemented a BT–Net architecture to find the thresholds of the pixel values of single and bilayer graphene flakes.
-- Support Vector Machine(SVM) method using a Gaussian kernel to separate the graphene flakes.
-- A comaprison among BT-Net, SVM methods and image processing methods.
+- Implement a modified U-Net architecture as the first step to segment the background and the graphene flakes.
+- Implement a Support Vector Machine(SVM) method using a Gaussian kernel to separate the graphene flakes.
 
 
 ## Dataset 
@@ -36,11 +34,6 @@ In this project, an UNet architecture was implemented to segment the background 
 - Images to demonstrate.
 
 
-## Bi-Threshold-Net architecture(BT-Net)
-The purpose of the BT-Net is to define the red, blue and green upper thresholds and the lower thresholds of the pixel intensity for both single layer and bilayer graphene flakes. Once the upper and lower thresholds for different layers of graphene are found, a color segmentation method was applied to separate the graphene flakes.    
-
-
-![](/images/graphene_process.png)
 
 The BT-Net structure is shown below.
 <img src="/images/BTNet.png" width="800" height="400">
