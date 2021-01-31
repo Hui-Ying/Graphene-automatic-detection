@@ -33,13 +33,6 @@ Below shows the result comparison between before and after the image preprocessi
 ## UNet Architecture
 In this project, an UNet architecture was implemented to segment the background and the graphene flakes.   
 - Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!   
-- The architecture is as follows. [cite]  
-- Images to demonstrate.
-
-
-
-A modified loss function is defined to improve the result of the training model. 
-
 
 
 
@@ -51,7 +44,7 @@ SVM is a supervised learning model used for regression and classification analys
 Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.  
 | Method       | monolayer DR(%) | monolayer FR(%) | bilayer DR(%) | bilayer FR(%) |
 | :---         |      ---:       |          ---:   |          ---: |          ---: |
-| SVM          | 87(new)/67(prev)              | 0.26            |90(new)/85(prev)             |0.35           |
+| SVM          | 87.09(new)            | 0.26            |90.41(new)           |0.35           |
 | BT-Net       | 81.06                |     2.85            |90.06               | 2.89              |
 | Otsu's method|  65.42               |      1.91           |     57.57          |   2.77            |
 
