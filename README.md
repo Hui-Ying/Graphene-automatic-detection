@@ -73,6 +73,7 @@ Modified images are the images after shifting the pixel values(ranges from 30, 2
 <img src="/images/shift_minus.png" width="650" height="400"><br />   
 <img src="/images/Detection_rate.png" width="550" height="400"><br />   
 
+
 ## References
 [1] K. S. Novoselov, A. Mishchenko, A. Carvalho, and A. H. C. Neto, “2d materials and van der waals heterostructures,” Science, vol. 353, no. 6298, p. aac9439, 2016.  
 [2] M. C. Lemme, T. J. Echtermeyer, M. Baus, and H. Kurz, “A graphene field-effect device,” IEEE Electron Device Letters, vol. 28, pp. 282–284, 2007.  
