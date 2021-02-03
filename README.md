@@ -1,5 +1,7 @@
 # Graphene-automatic-detection
 
+### Note: please feel free to contact me at huiyingsiao@gmail.com if you are interested in using this tool to find monolayer and bilayer graphene on your substrates!
+
 This work investigates the important problem of autonomous graphene detection in microscopic substrate images. We study the application of hybrid deep learning(DL)/machine learning(ML) techniques to segment the monolayer and bilayer graphene. We implement a modified U-Net model to segment the graphene flakes from the background. By using the segmentation results from the U-Net model, we implement a support vector machine (SVM) to separate the monolayer and bilayer graphene flakes. There are two features including the graphene and the background pixel values from microscopic images as the inputs for the SVM model. We achieve detection rates of 87.09\% and 90.41\% for monolayer and bilayer graphene. 
 
 
