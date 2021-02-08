@@ -66,7 +66,7 @@ Raw image is the original image. True mask is the ground truth image.
 
 Modified images are the images after shifting the pixel values(ranges from 30, 25,...-25,-30). Preprocessed the modified images are the images applied with data preprocessing.  
 
-(a) is the original images with the shifted pixel values; (b) is the images after applying image preprocessing on (a); (c) is the prediction results from the SVM.
+(a) are the original images with the shifted pixel values; (b) are the images after applying image preprocessing on (a); (c) are the prediction results from the SVM.
 
 
 <img src="/images/shift_plus.png" width="650" height="400"><br />  
