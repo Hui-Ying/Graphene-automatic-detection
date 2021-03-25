@@ -50,11 +50,9 @@ Here we extract the RGB pixel values separately and assign the pixel values to i
 <img src="/images/SVM.png" width="600" height="600"><br />  
 
 
-## Test the robustness of the model
-Graphene images can be captured using different kind of camera which might cause color shift and results in incorrect detection of the graphene. And thus, in order to make sure that the graphene flakes captured with different camera can be detected correctly, image preprocessing was applied to resolve this issue. We shifted the color channel intentionally and applied the image preprocessing  on those images. The following plot shows the relationship between the detection rate and the number of the shifted pixel values.
-Raw image is the original image. True mask is the ground truth image.   
-<img src="/images/raw.png" width="350" height="200"><br />    
-
+## White Balance Method (WB)
+Due to different types of the cameras used by different research groups to capture the graphene images, color shifts can happen on the images. Therefore, we implement a WB correction in the MLA-GDCC method to correct the color shifts. We implement a Gray world algorithm [4, 7, 17] as the WB method to make the average of all channels a gray image. With the WB correction, models can accurately detect the graphene on the color-shifted microscopic images captured by different cameras.    
+   
 With the implementation of the Gray world algorithm, the results show that the SVM model can detect the graphene flakes and identify the layers with high detection rates. The detection results of the color-shifted images are shown below. In both figures part (a) shows the images shifted with different numbers of pixel values in the blue channel. Part (b) shows the application of the Gray world algorithm on the images in part (a). Part (c) shows the output from the MLA-GDCC. 
 
 - Fig 2. (a) shows the original images with pixel values in the blue channel added with the corresponding values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.
