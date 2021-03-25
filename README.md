@@ -23,8 +23,8 @@ A generated json file from Labelbox will then converted into a [COCO dataset](ht
 
 [Labeling Tutorial]()
 
-## Process of graphene segmentation
-<img src="/images/comple_process.png" width="800" height="220">
+## Complete process of the MLA-GDCC.
+<img src="/images/comple_process.png" width="1000" height="320">
 
 
 ## Image Preprocessing method
