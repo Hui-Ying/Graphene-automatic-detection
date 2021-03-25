@@ -15,11 +15,11 @@ The original dataset was provided by [Nanoelectronics lab](http://nano.phys.ncku
 
 ## Labeling 
 The labeling software used for this project is [Labelbox](https://labelbox.com).   
-
 A generated json file from Labelbox will then converted into a [COCO dataset](https://cocodataset.org/#home) for use.
 
 
 ## Complete process of the MLA-GDCC.
+- Fig. 1 shows the process of MLA-GDCC. First, we apply a WB method to the original images to correct the color shifts caused by different cameras. Second, the modified U-Net architecture is used to segment the regions of interest from the background in the white-balanced images. Third, a multiplier is implemented to mask the background from the white-balanced images. Last but not least, a SVM is implemented to classify the monolayer and bilayer graphene.
 <img src="/images/comple_process.png" width="1000" height="320">
 
 
@@ -124,7 +124,7 @@ dependent high level features for improved liver and liver-tumor segmentation in
 Medical Imaging, 39(5):1316–1325, 2020.  
 [35] A. Sevastopolsky. Optic disc and cup segmentation methods for glaucoma detection with modification of u-net
 convolutional neural network. 27:618–624, 2017.  
-[36] C. Shearer, A. Slattery, A. Stapleton, J. Shapter, and C. Gibson. Accurate thickness measurement of graphene. Nanotechnology, 27(12):125704, feb 2016.
+[36] C. Shearer, A. Slattery, A. Stapleton, J. Shapter, and C. Gibson. Accurate thickness measurement of graphene. Nanotechnology, 27(12):125704, feb 2016.  
 [37] A.O.Vuola,S.U.Akram,andJ.Kannala.Mask-rcnnandu-netensembledfornucleisegmentation.pages208–212, 2019.  
 [38] X-Y. Wang, T. Wang, and J. Bu. Color image segmentation using pixel wise support vector machine classification. Pattern Recognition, 44:777–787, 2011.
 [39] F. Xia, T. Mueller, Y-M Lin, A. Valdes-Garcia, and P. Avouris. Ultrafast graphene photodetector. Nature Nanotech- nology, 4:839—-843, 2009.  
