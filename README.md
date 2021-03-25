@@ -55,14 +55,12 @@ Graphene images can be captured using different kind of camera which might cause
 Raw image is the original image. True mask is the ground truth image.   
 <img src="/images/raw.png" width="350" height="200"><br />    
 
-Modified images are the images after shifting the pixel values(ranges from 30, 25,...-25,-30). Preprocessed the modified images are the images applied with data preprocessing.  
+With the implementation of the Gray world algorithm, the results show that the SVM model can detect the graphene flakes and identify the layers with high detection rates. The detection results of the color-shifted images are shown below. In both figures part (a) shows the images shifted with different numbers of pixel values in the blue channel. Part (b) shows the application of the Gray world algorithm on the images in part (a). Part (c) shows the output from the MLA-GDCC. 
 
-(a) are the original images with the shifted pixel values; (b) are the images after applying image preprocessing on (a); (c) are the prediction results from the SVM.
-
-
+- Fig 2. (a) shows the original images with pixel values in the blue channel added with the corresponding values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.
 <img src="/images/shift_plus.png" width="650" height="400"><br />  
 
-
+- Fig 3. (a) shows the original images with the pixel values in the blue channel subtracted with the correspond- ing values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.
 <img src="/images/shift_minus.png" width="650" height="400"><br />   
 <img src="/images/Detection_rate.png" width="550" height="400"><br />   
 
