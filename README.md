@@ -39,13 +39,12 @@ In this project, an UNet architecture was implemented to segment the background 
 SVM is a supervised learning model used for regression and classification analysis. Once the background and the graphene flakes were separated using the U-Net architecture, the SVM method was implemented. Here the SVM algorithm was implemented with different kernels including Gaussian kernel, polynomial kernel and linear kernel to demonstrate the differences. Kernel function was picked to suit the problem. 
 
 
-## Result Comparison and Discussion
+## Pixel-level evaluation metrics
 Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.  
-| Method       | monolayer DR(%) | monolayer FR(%) | bilayer DR(%) | bilayer FR(%) |
+| Method       | precision(%) | F1 score(%) | recall(DR)(%) | accuracy(%) |
 | :---         |      ---:       |          ---:   |          ---: |          ---: |
-| SVM          | 87.09            | 0.26            |90.41           |0.35           |
-| BT-Net       | 81.06                |     2.85            |90.06               | 2.89              |
-| Otsu's method|  65.42               |      1.91           |     57.57          |   2.77            |
+| Monolayer    | 51.01           | 59.03           |70.05          |99.27         |
+| Bilayer |  70.37              |      75.38       | 81.16         |98.92          |
 
   
 - Demonstration of SVM results(GT: ground truth; G: green; R: red)  
