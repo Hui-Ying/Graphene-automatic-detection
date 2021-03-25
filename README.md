@@ -29,10 +29,9 @@ Below shows the result comparison between before and after the image preprocessi
 
 <img src="/images/preprocess.png" width="800" height="220">
 
-## UNet Architecture
-In this project, an UNet architecture was implemented to segment the background and the graphene flakes.   
+## UNet Architecture  
 - Click [here](https://www.youtube.com/watch?v=2nHsBEQst7g) to check the Youtube tutorial!   
-
+In order to segment both the single layer and the bilayer graphene flakes from the background more accurately, we modify the traditional U-Net architecture [29] by adding 5 convolutional layers in the decoder to generate more training parameters from the images. The inputs of the modified U-Net are RGB microscopic images of graphene on the SiO2 substrates, and all the input images are resized into 256 × 256 pixels. The outputs of the modified U-Net are the detected masks containing both monolayer and bilayer graphene flakes, which provides pixel-level probability maps for the graphene devices. 
 
 
 ## Support Vector Machine(SVM) Method
