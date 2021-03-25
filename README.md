@@ -39,7 +39,6 @@ SVM is a supervised learning model used for regression and classification analys
 
 
 ## Pixel-level evaluation metrics
-Detection rate(DR) and false alarm rate(FAR) were calculated pixel by pixel.  
 | Method       | precision(%) | F1 score(%) | recall(DR)(%) | accuracy(%) |
 | :---         |      ---:       |          ---:   |          ---: |          ---: |
 | Monolayer    | 51.01           | 59.03           |70.05          |99.27         |
