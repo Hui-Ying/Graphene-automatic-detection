@@ -55,10 +55,11 @@ Due to different types of the cameras used by different research groups to captu
    
 With the implementation of the Gray world algorithm, the results show that the SVM model can detect the graphene flakes and identify the layers with high detection rates. The detection results of the color-shifted images are shown below. In both figures part (a) shows the images shifted with different numbers of pixel values in the blue channel. Part (b) shows the application of the Gray world algorithm on the images in part (a). Part (c) shows the output from the MLA-GDCC. 
 
-- Fig 2. (a) shows the original images with pixel values in the blue channel added with the corresponding values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.
-<img src="/images/shift_plus.png" width="650" height="400"><br />  
+- Fig 2. (a) shows the original images with pixel values in the blue channel added with the corresponding values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.  
+<img src="/images/shift_plus.png" width="650" height="400"><br />    
 
-- Fig 3. (a) shows the original images with the pixel values in the blue channel subtracted with the correspond- ing values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.
+
+- Fig 3. (a) shows the original images with the pixel values in the blue channel subtracted with the correspond- ing values on the images. (b) shows the images after applying white balance on (a). (c) shows the detection results from the SVM.  
 <img src="/images/shift_minus.png" width="650" height="400"><br />   
 <img src="/images/Detection_rate.png" width="550" height="400"><br />   
 
