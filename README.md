@@ -1,6 +1,7 @@
 # Machine Learning-based Automatic Graphene Detection with Color Correction for Optical Microscope Images
 
 - [Video demonstration](https://www.youtube.com/watch?v=mkgfjlF0cMw)
+- [Article](http://arxiv.org/abs/2103.13495)
 - Note: Please feel free to contact me at huiyingsiao@gmail.com if you are interested in using this tool to find monolayer and bilayer graphene on the substrates!
 
 ## Abstract
